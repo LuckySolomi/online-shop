@@ -1,0 +1,73 @@
+[
+  {
+    "id": 101,
+    "image": "../img/fox-1.png",
+    "name": "Red fox",
+    "price": 120.0,
+    "breed": "Forest",
+    "amount": 1
+  },
+
+  {
+    "id": 102,
+    "image": "../img/fox-2.png",
+    "name": "Pet fox",
+    "price": 120.0,
+    "breed": "Other",
+    "amount": 1
+  },
+
+  {
+    "id": 103,
+    "image": "../img/fox-3.png",
+    "name": "Kit fox",
+    "price": 120.0,
+    "breed": "Foxkid",
+    "amount": 1
+  },
+
+  {
+    "id": 104,
+    "image": "../img/fox-4.png",
+    "name": "Arctic fox",
+    "price": 120.0,
+    "breed": "Foxkid",
+    "amount": 1
+  },
+
+  {
+    "id": 105,
+    "image": "../img/fox-5.png",
+    "name": "Kit fox",
+    "price": 120.0,
+    "breed": "Forest",
+    "amount": 1
+  },
+
+  {
+    "id": 106,
+    "image": "../img/fox-6.png",
+    "name": "Red fox",
+    "price": 120.0,
+    "breed": "Other",
+    "amount": 1
+  },
+
+  {
+    "id": 107,
+    "image": "../img/fox-7.png",
+    "name": "Fennec fox",
+    "price": 120.0,
+    "breed": "Forest",
+    "amount": 1
+  },
+
+  {
+    "id": 108,
+    "image": "../img/fox-8.png",
+    "name": "Arctic fox",
+    "price": 120.0,
+    "breed": "Foxkid",
+    "amount": 1
+  }
+]

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./shared.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="main-home-page-fox-background">
+      <nav id="headerDropMenu" class="header_drop-menu">
+        <img class="drop-menu__logo" src="./img/logo.svg" alt="logo" />
+        <a href="#">SHOP</a>
+        <a href="./index.html">MAINPAGE</a>
+        <a href="./about-us/about.html">OUR HISTORY</a>
+        <a href="./all-items/items.html">ALL ITEMS</a>
+        <img
+          id="headerCloseIcon"
+          class="drop-menu__close-icon"
+          src="./img/close-icon.svg"
+          alt="close-icon"
+        />
+      </nav>
+      <header id="mainHeader" class="main-header">
+        <img
+          id="headerDots"
+          class="main-header__dots"
+          src="./img/dots.svg"
+          alt="dots"
+        />
+        <img class="header__logo" src="./img/logo.svg" alt="logo" />
+        <nav class="header__nav">
+          <a href="#">SHOP</a>
+          <a href="./index.html">MAINPAGE</a>
+          <a href="./about-us/about.html">OUR HISTORY</a>
+          <a href="./all-items/items.html">ALL ITEMS</a>
+        </nav>
+        <div class="header__icons">
+          <img
+            src="./img/shopping-cart-one.svg"
+            alt="cart"
+            onclick="openshoppingCart()"
+          />
+          <img src="./img/foxy-sign.svg" alt="fox" />
+        </div>
+      </header>
+
+      <div class="main-home__text-block">
+        <h1 class="main-home__title">Discover foxlife</h1>
+        <p class="main-home__text">
+          Lorem ipsum dolor sit amet consectetur. Phar eget turpis sem ultricies
+          dolor sit amet consectetur.
+        </p>
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closeopenshoppingCart()">
+      <div class="shopping-cart" onclick="event.stopPropagation()">
+        <img
+          class="shopping-cart__close-img"
+          src="./img/gray-close-icon.svg"
+          alt="close-icon"
+          onclick="closeopenshoppingCart()"
+        />
+        <p class="title-block__upper-text">box</p>
+        <h1 class="shopping-cart__title">Your Bag</h1>
+        <div class="shopping-cart__cards-container">
+          <div class="shopping-cart__card">
+            <div>
+              <img class="cart__card-img" src="./img/fox-item.png" alt="fox" />
+              <div class="card-img__text-container">
+                <h2 class="card-img__title">Stylish chair</h2>
+                <p class="card-img__price">$120.00</p>
+              </div>
+            </div>
+            <div>
+              <div class="cart__card-buttons-container">
+                <button>-</button>
+                <p class="card-amount">1</p>
+                <button>+</button>
+              </div>
+              <div class="cart__card_remove-container">
+                <p class="cart__card_remove-text">Remove</p>
+                <img
+                  class="close-circle-icon"
+                  src="./img/close-circle.svg"
+                  alt="close-circle-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shopping-cart__total-price-container">
+          <h1 class="total-price__title">
+            Total: <br />
+            $190.80
+          </h1>
+          <button class="total-price__button">Checkout</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-about-page">
+      <div>
+        <div class="about__han-rooster-general">
+          <div class="about__hen">
+            <div>
+              <p class="about__hashtag">#Food</p>
+              <h1 class="about__title">
+                Lorem ipsum <br />
+                dolor sit amet ipsum
+              </h1>
+            </div>
+            <img class="hen-img" src="./img/hen.svg" alt="hen" />
+          </div>
+        </div>
+        <div class="about__han-rooster-general about__roster">
+          <div class="about__hen">
+            <img src="./img/rooster.png" alt="rooster" />
+            <div class="about__roster-text">
+              <p class="about__hashtag">#Office</p>
+              <h1 class="about__title">
+                Lorem ipsum <br />
+                dolor sit amet ipsum
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about__fox">
+        <div>
+          <p class="about__hashtag">#House</p>
+          <h1 class="about__title">
+            Lorem ipsum <br />
+            dolor sit amet ipsum
+          </h1>
+        </div>
+        <img src="./img/sit-down-fox.png" alt="fox" />
+      </div>
+    </div>
+    <div class="main__foxes-btn-container">
+      <button class="main__foxes-btn">All foxes</button>
+    </div>
+
+    <div class="main__join-page">
+      <form action="">
+        <h2 class="form__subtitle">Join our newsletter</h2>
+        <p class="join__text">
+          Lorem ipsum dolor sit amet consectetur. Molestie turpis quis turpis
+          fermentum egestas bibendum.Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <div class="join__input-container">
+          <input class="join__input" type="email" placeholder="Enter email" />
+          <button class="join__btn">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="main-footer">
+        <div class="footer__contacts">
+          <img src="./img/footer-logo.svg" alt="footer-logo" />
+          <p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+          <p>Call us : 8956 3254 7887</p>
+          <div class="footer__icons-container">
+            <img src="./img/instagram.svg" alt="insta-icon" />
+            <img src="./img/telegram.svg" alt="telegram" />
+            <img src="./img/twitter.svg" alt="twitter" />
+          </div>
+        </div>
+        <nav class="footer__nav">
+          <ul class="link-list">
+            <h3>Shop</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>Products</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>Collection</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>Weekly updates</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>About us</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-rights">
+        <p>Storelogo, 2023 All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,241 @@
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.main-home-page-fox-background {
+  width: 100vw;
+  min-width: 1360px;
+  height: 100vh;
+  background-image: url("./img/fox-background.jpg");
+  background-position: 35% 0;
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+}
+
+.main-home__text-block {
+  width: 500px;
+  margin: 7rem 16rem;
+  color: #ffffff;
+}
+
+.main-home__title {
+  font-size: 80px;
+}
+
+.main-about-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.about__han-rooster-general {
+  display: flex;
+  justify-content: space-between;
+  width: 561px;
+  height: 220px;
+  padding: 25px;
+  background: #f4f4f4;
+}
+
+.about__hen {
+  display: flex;
+}
+
+.about__hashtag {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.about__title {
+  font-size: 24px;
+}
+
+.hen-img {
+  margin-left: 140px;
+  margin-top: -14px;
+  width: 120px;
+  height: 200px;
+}
+
+.about__roster {
+  margin-top: 32px;
+}
+
+.about__roster-text {
+  margin-left: 50px;
+  width: 246px;
+}
+
+.about__fox {
+  display: flex;
+  justify-content: space-between;
+  width: 585px;
+  height: 472px;
+  margin-left: 50px;
+  padding: 25px;
+  background: #f4f4f4;
+}
+
+.about__fox img {
+  margin-left: -50px;
+}
+
+.main__join-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: 410px;
+  margin-top: 3rem;
+  background: #f4f4f4;
+  color: #000000;
+  letter-spacing: 0.05em;
+}
+
+.form__subtitle {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  color: #201616;
+}
+
+.join__text {
+  width: 700px;
+  font-size: 18px;
+}
+
+.join__input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.join__input {
+  width: 755px;
+  height: 70px;
+  padding: 20px;
+  padding-right: 240px;
+  border: 1px solid #9a9494;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.join__input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+  color: #9d9d9d;
+}
+
+.join__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 214px;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: #000000;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 376px) {
+  .main-home-page-fox-background {
+    min-width: 375px;
+    height: 371px;
+    background-size: auto 371px;
+  }
+
+  .main-home__text-block {
+    width: 280px;
+    padding: 50px 0 0 20px;
+    margin: 0;
+  }
+
+  .main-home__title {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .main-home__text {
+    font-size: 14px;
+  }
+
+  .main-about-page {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 12px;
+  }
+
+  .about__han-rooster-general {
+    width: 355px;
+    height: 139px;
+    padding: 10px;
+  }
+
+  .about__hashtag {
+    font-size: 14px;
+  }
+
+  .about__title {
+    font-size: 20px;
+  }
+
+  .hen-img {
+    margin-left: 50px;
+    margin-top: -10px;
+    width: 77px;
+    height: 129px;
+  }
+
+  .about__roster {
+    margin-top: 2rem;
+  }
+
+  .about__fox {
+    width: 355px;
+    height: 299px;
+    margin-top: 30px;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .main__join-page {
+    justify-content: initial;
+    width: 375px;
+    height: 343px;
+    margin-top: 2rem;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .join__text {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .join__input {
+    width: 355px;
+    padding-right: 10px;
+  }
+
+  .join__btn {
+    position: absolute;
+    width: 355px;
+    height: 70px;
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our history</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <script src="../scripts.js" defer></script>
+  </head>
+  <body>
+    <nav id="headerDropMenu" class="header_drop-menu">
+      <a href="../index.html"
+        ><img class="drop-menu__logo" src="../img/logo.svg" alt="logo"
+      /></a>
+
+      <a href="#">SHOP</a>
+      <a href="../index.html">MAINPAGE</a>
+      <a href="./about.html">OUR HISTORY</a>
+      <a href="../all-items/items.html">ALL ITEMS</a>
+      <img
+        id="headerCloseIcon"
+        class="drop-menu__close-icon"
+        src="../img/close-icon.svg"
+        alt="close-icon"
+      />
+    </nav>
+    <header id="mainHeader" class="main-header">
+      <img
+        id="headerDots"
+        class="main-header__dots"
+        src="../img/dots.svg"
+        alt="dots"
+      />
+      <a href="../index.html"
+        ><img class="header__logo" src="../img/footer-logo.svg" alt="logo"
+      /></a>
+
+      <nav class="header__nav">
+        <a href="#">SHOP</a>
+        <a href="../index.html">MAINPAGE</a>
+        <a href="./about.html">OUR HISTORY</a>
+        <a href="../all-items/items.html">ALL ITEMS</a>
+      </nav>
+      <div class="header__icons">
+        <img
+          src="../img/shopping-cart-one.svg"
+          alt="cart"
+          onclick="openshoppingCart()"
+        />
+        <img src="../img/foxy-sign.svg" alt="fox" />
+      </div>
+    </header>
+
+    <div class="overlay" id="overlay" onclick="closeopenshoppingCart()">
+      <div class="shopping-cart" onclick="event.stopPropagation()">
+        <img
+          class="shopping-cart__close-img"
+          src="../img/gray-close-icon.svg"
+          alt="close-icon"
+          onclick="closeopenshoppingCart()"
+        />
+        <p class="title-block__upper-text">box</p>
+        <h1 class="shopping-cart__title">Your Bag</h1>
+        <div class="shopping-cart__cards-container">
+          <div class="shopping-cart__card">
+            <div>
+              <img class="cart__card-img" src="../img/fox-item.png" alt="fox" />
+              <div class="card-img__text-container">
+                <h2 class="card-img__title">Stylish chair</h2>
+                <p class="card-img__price">$120.00</p>
+              </div>
+            </div>
+            <div>
+              <div class="cart__card-buttons-container">
+                <button>-</button>
+                <p class="card-amount">1</p>
+                <button>+</button>
+              </div>
+              <div class="cart__card_remove-container">
+                <p class="cart__card_remove-text">Remove</p>
+                <img
+                  class="close-circle-icon"
+                  src="../img/close-circle.svg"
+                  alt="close-circle-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shopping-cart__total-price-container">
+          <h1 class="total-price__title">
+            Total: <br />
+            $190.80
+          </h1>
+          <button class="total-price__button">Checkout</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="title-block">
+      <p class="title-block__upper-text">Home/About us</p>
+      <h1 class="title-block__title">Our history</h1>
+    </div>
+    <main class="about-us__main">
+      <div class="main__two-foxes">
+        <div class="main__text-container">
+          <h1 class="about-us__main__subtitle">
+            Lorem ipsum dolor sit amet ipsum
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Amet aliquam non congue
+            vivamus. Viverra consequat donec fringilla dolor phasellus nibh
+            ultricies purus. Id netus semper feugiat elit turpis convallis
+            platea. Aliquam semper in amet vitae sit augue non. Sit arcu
+            phasellus morbi diam nullam. Proin lorem nunc ante aliquam mauris
+            nunc. Egestas leo orci pellentesque cras. Vitae id enim amet dolor
+            tellus dignissim id mattis.
+          </p>
+          <p>
+            Augue dis nunc eu tempus habitant eu.Lorem ipsum dolor sit amet
+            consectetur. Amet aliquam non congue vivamus. Viverra consequat
+            donec fringilla dolor phasellus nibh ultricies purus. Id netus
+            semper feugiat elit turpis convallis platea. Aliquam semper in amet
+            vitae sit augue non. Sit arcu phasellus morbi diam nullam. Proin
+            lorem nunc ante aliquam mauris nunc. Egestas leo orci pellentesque
+            cras. Vitae id enim amet dolor tellus dignissim id mattis. Augue dis
+            nunc eu tempus habitant eu.
+          </p>
+        </div>
+        <img src="../img/two-baby-fox.png" alt="foxes" />
+      </div>
+      <div class="main__big-fox">
+        <img
+          class="fox-desktop-size"
+          src="../img/big-fox-looks.png"
+          alt="fox"
+        />
+        <div class="main__text-container">
+          <h1 class="about-us__main__subtitle">
+            Lorem ipsum dolor sit amet ipsum
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Amet aliquam non congue
+            vivamus. Viverra consequat donec fringilla dolor phasellus nibh
+            ultricies purus. Id netus semper feugiat elit turpis convallis
+            platea. Aliquam semper in amet vitae sit augue non. Sit arcu
+            phasellus morbi diam nullam. Proin lorem nunc ante aliquam mauris
+            nunc. Egestas leo orci pellentesque cras. Vitae id enim amet dolor
+            tellus dignissim id mattis.
+          </p>
+          <p>
+            Augue dis nunc eu tempus habitant eu.Lorem ipsum dolor sit amet
+            consectetur. Amet aliquam non congue vivamus. Viverra consequat
+            donec fringilla dolor phasellus nibh ultricies purus. Id netus
+            semper feugiat elit turpis convallis platea. Aliquam semper in amet
+            vitae sit augue non. Sit arcu phasellus morbi diam nullam. Proin
+            lorem nunc ante aliquam mauris nunc. Egestas leo orci pellentesque
+            cras. Vitae id enim amet dolor tellus dignissim id mattis. Augue dis
+            nunc eu tempus habitant eu.
+          </p>
+        </div>
+        <img class="fox-mobile-size" src="../img/big-fox-looks.png" alt="fox" />
+      </div>
+    </main>
+    <footer>
+      <div class="main-footer">
+        <div class="footer__contacts">
+          <img src="../img/footer-logo.svg" alt="footer-logo" />
+          <p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+          <p>Call us : 8956 3254 7887</p>
+          <div class="footer__icons-container">
+            <img src="../img/instagram.svg" alt="insta-icon" />
+            <img src="../img/telegram.svg" alt="telegram" />
+            <img src="../img/twitter.svg" alt="twitter" />
+          </div>
+        </div>
+        <nav class="footer__nav">
+          <ul class="link-list">
+            <h3>Shop</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>Products</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>Collection</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>Weekly updates</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+          <ul class="link-list">
+            <h3>About us</h3>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-rights">
+        <p>Storelogo, 2023 All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
